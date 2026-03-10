@@ -1,0 +1,16 @@
+name = "NORQAIN Customer Account App"
+client_id = "YOUR_CLIENT_ID_HERE"
+application_url = "https://norqain.com"
+embedded = false
+
+[access_scopes]
+scopes = "read_customers"
+
+[auth]
+redirect_urls = ["https://norqain.com/auth/callback"]
+
+[webhooks]
+api_version = "2025-01"
+
+[pos]
+embedded = false
