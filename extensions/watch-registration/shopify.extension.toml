@@ -1,0 +1,13 @@
+api_version = "2025-01"
+
+[[extensions]]
+type = "ui_extension"
+name = "NORQAIN Watch Registration"
+handle = "watch-registration"
+
+[[extensions.targeting]]
+module = "./src/index.jsx"
+target = "customer-account.page.render"
+
+[extensions.capabilities]
+network_access = true
